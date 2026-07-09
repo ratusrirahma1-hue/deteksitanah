@@ -1,50 +1,81 @@
-# Welcome to your Expo app 👋
+# 🌱 SoilCare - Aplikasi Deteksi Kesuburan Tanah 
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Nama Aplikasi
+**SoilCare – Aplikasi Deteksi Kesuburan Tanah**
 
-## Get started
+## Deskripsi Singkat
+SoilCare merupakan aplikasi mobile berbasis Expo React Native yang dirancang untuk membantu petani dalam mengetahui tingkat kesuburan tanah secara cepat dan mudah. Aplikasi ini memanfaatkan metode **Forward Chaining** untuk melakukan diagnosis berdasarkan data yang dimasukkan oleh pengguna, seperti nilai pH tanah, suhu, kelembapan, curah hujan, dan karakteristik tanah. Hasil diagnosis disertai dengan rekomendasi yang dapat membantu petani dalam menentukan tindakan yang tepat untuk meningkatkan produktivitas tanaman padi.
 
-1. Install dependencies
+## Teknologi yang Digunakan
 
-   ```bash
-   npm install
-   ```
+- React Native
+- Expo
+- Expo Router
+- TypeScript
+- Firebase
+- React Navigation
+- React Native Maps
+- Expo Location (GPS)
+- AsyncStorage
+- Lucide React Native
+- CSS (StyleSheet React Native)
 
-2. Start the app
+## Cara Menjalankan Project
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+### 1. Clone Repository
 
 ```bash
-npm run reset-project
+git clone https://github.com/USERNAME/NAMA_REPOSITORY.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2. Masuk ke Folder Project
 
-## Learn more
+```bash
+cd NAMA_REPOSITORY
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+### 3. Install Dependencies
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npm install
+```
 
-## Join the community
+atau
 
-Join our community of developers creating universal apps.
+```bash
+yarn install
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### 4. Jalankan Project
+
+```bash
+npx expo start
+```
+
+atau
+
+```bash
+npm start
+```
+
+### 5. Menjalankan di Perangkat
+
+- Tekan **a** untuk Android Emulator.
+- Tekan **i** untuk iOS Simulator (macOS).
+- Scan QR Code menggunakan aplikasi **Expo Go** pada perangkat Android atau iOS.
+
+## Struktur Folder
+
+```
+app/
+assets/
+components/
+constants/
+hooks/
+services/
+utils/
+```
+
+## Pengembang
+
+Dikembangkan sebagai bagian dari proyek aplikasi mobile menggunakan **Expo React Native**.
