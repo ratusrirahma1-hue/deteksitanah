@@ -1,0 +1,12 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // MODE DEMO/UAS: siapa saja bisa baca & tulis koleksi riwayat analisis.
+    // Untuk aplikasi produksi sungguhan, tambahkan Firebase Authentication
+    // dan ganti aturan ini agar user hanya bisa akses datanya sendiri, contoh:
+    // allow read, write: if request.auth != null && request.auth.uid == resource.data.userId;
+    match /analisisTanah/{docId} {
+      allow read, write: if true;
+    }
+  }
+}

@@ -4,7 +4,7 @@
     "slug": "deteksitanah",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/logo-deteksi-tanah.png",
     "scheme": "deteksitanah",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -38,7 +38,9 @@
             "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      "expo-font",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,
