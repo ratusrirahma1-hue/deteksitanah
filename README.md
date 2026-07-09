@@ -25,7 +25,7 @@ SoilCare merupakan aplikasi mobile berbasis Expo React Native yang dirancang unt
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/USERNAME/NAMA_REPOSITORY.git
+git clone  https://github.com/ratusrirahma1-hue/deteksitanah.git
 ```
 
 ### 2. Masuk ke Folder Project
